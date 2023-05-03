@@ -79,12 +79,11 @@ const projects = [
     buttons: [{ name: "Website", url: "https://catsploit.ariez.codes/" }],
   },
   {
-    name: "Zeus/Electric",
-    description: "High quality distribution of *OS software",
-    thumbnail: "/assets/zeus.png",
+    name: meowra1n",
+    description: "best jailbreak",
+    thumbnail: "/assets/catsploit.png",
     buttons: [
-      { name: "Website", url: "https://zeusteam.dev/" },
-      { name: "Twitter", url: "https://twitter.com/zeusrepo" },
+      { name: "Soon.", url: "https://ariez.me/" },
     ],
   },
 ];
