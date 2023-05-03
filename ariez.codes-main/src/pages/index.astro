@@ -1,0 +1,101 @@
+---
+import Layout from "../layouts/Layout.astro";
+import DiscordActivity from "../components/DiscordActivity";
+import Projects from "../components/Projects";
+import Age from "../components/Age";
+import Technology from "../components/Technology";
+
+import {
+  SiTypescript,
+  SiNodedotjs,
+  SiDocker,
+  SiReact,
+  SiYarn,
+  SiTailwindcss,
+  SiGit,
+  SiRedis,
+  SiPostgresql,
+  SiVisualstudiocode,
+  SiNextdotjs,
+} from "react-icons/si/index";
+import { RiRocketFill } from "react-icons/ri/index";
+---
+
+<Layout title="Hi! I'm Ariez.">
+  <main>
+    <div class="mt-6">
+      <div class="sm:flex sm:items-center sm:space-x-5">
+        <img
+          src="https://avatars.githubusercontent.com/u/111437912"
+          width={125}
+          height={125}
+          alt="best avatar"
+          class="rounded-full"
+        />
+        <div>
+          <div class="text-5xl sm:text-6xl font-bold">
+            <span>Hey, I&apos;m</span>
+            <span
+              class="bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent"
+            >
+              ariez
+            </span>
+          </div>
+          <DiscordActivity client:load />
+        </div>
+      </div>
+
+      <div class="text-gray-300 text-base leading-relaxed mt-5">
+        <p>
+          I&apos;m a <Age client:load /> y/o skid from the United Kingdom{
+            " "
+          }
+          <img
+            src="/assets/unitedkingdom.webp"
+            class="rounded-sm inline-flex w-5"
+            alt="uk flag"
+          />
+          . I develop websites (such as this one), I also
+          love to explore new technologies and tools made by others.
+        </p>
+      </div>
+
+      <div class="text-base leading-relaxed mt-5 mb-5">
+        <h1 class="text-3xl font-semibold">What I Use 🧑‍💻</h1>
+        <p class="text-gray-300 mt-2">
+          There are a lot of different technologies that allow me to make my
+          projects real. I love to experiment with new stuff, such as Astro,
+          which I used to build this website.
+        </p>
+        <div class="grid grid-cols-3 md:grid-cols-4 grid-flow-row gap-2 mt-3">
+          <Technology name="Typescript" Icon={SiTypescript} />
+          <Technology name="Node.js" Icon={SiNodedotjs} />
+          <Technology name="Docker" Icon={SiDocker} />
+          <Technology name="React.js" Icon={SiReact} />
+          <Technology name="Next.js" Icon={SiNextdotjs} />
+          <Technology name="Astro" Icon={RiRocketFill} />
+          <Technology name="Yarn" Icon={SiYarn} />
+          <Technology name="TailwindCSS" Icon={SiTailwindcss} />
+          <Technology name="Git" Icon={SiGit} />
+          <Technology name="Redis" Icon={SiRedis} />
+          <Technology name="Postgres" Icon={SiPostgresql} />
+          <Technology name="Code" Icon={SiVisualstudiocode} />
+        </div>
+      </div>
+
+      <div class="mt-5 mb-5">
+        <h1 class="text-3xl font-semibold">What I Built 🔨</h1>
+        <p class="text-gray-300 mt-2">
+          I built a lot of things, most of them not finished. You can check out my <a
+            href="https://github.com/ariezinc"
+            class="text-yellow-400"
+            target="_blank">GitHub profile</a
+          >. Below you can find some of my biggest projects.
+        </p>
+        <div class="mt-3">
+          <Projects client:load />
+        </div>
+      </div>
+    </div>
+  </main>
+</Layout>
