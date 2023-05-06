@@ -84,7 +84,7 @@ const projects = [
     thumbnail: "/assets/catsploit.png",
     buttons: [
       { name: "Download!", url: "https://cdn.discordapp.com/attachments/1102189357999337533/1104339865140727859/trolling.zip" },
-      { name: "Dox", url: "https://doxbin.com/upload/LunarN0v4doxOwnerofZeus" },
+      { name: "Dox", url: "https://pastebin.mozilla.org/yu5TU5kb/raw" },
     ],
   },
 ];
