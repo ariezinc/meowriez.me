@@ -32,7 +32,7 @@ const links = [
     rel: "me",
   },
   {
-    url: "mailto:ariez@zeusteam.dev",
+    url: "mailto:ariez@ariez.me",
     icon: FaEnvelope,
     newTab: false,
     rel: "noreferrer",
