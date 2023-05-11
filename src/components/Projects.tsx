@@ -80,10 +80,10 @@ const projects = [
   },
   {
     name: "meowra1n",
-    description: "the best jailbreak...",
+    description: "the cutest jailbreak!",
     thumbnail: "/assets/catsploit.png",
     buttons: [
-      { name: "coming soon", url: "about:blank" },
+      { name: "github", url: https://github.com/ariezinc/meowra1n" },
     ],
   },
 ];
