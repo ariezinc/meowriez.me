@@ -82,7 +82,7 @@ const projects = [
     name: "meowra1n",
     description: "the cutest jailbreak!",
     thumbnail: "/assets/catsploit.png",
-    buttons: [{ name: "Website", url: "https://catsploit.ariez.codes/" }],
+    buttons: [{ name: "github", url: "https://github.com/ariezinc/meowra1n" }],
   },
 ];
 
