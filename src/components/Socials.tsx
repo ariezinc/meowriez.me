@@ -26,12 +26,6 @@ const links = [
     rel: "noreferrer",
   },
   {
-    url: "https://tech.lgbt/@ariez",
-    icon: FaMastodon,
-    newTab: true,
-    rel: "me",
-  },
-  {
     url: "mailto:ariez@ariez.me",
     icon: FaEnvelope,
     newTab: false,
