@@ -8,7 +8,7 @@ import {
 
 const links = [
   {
-    url: "https://github.com/ariezinc",
+    url: "https://github.com/ommibtw",
     icon: FaGithub,
     newTab: true,
     rel: "noreferrer",
