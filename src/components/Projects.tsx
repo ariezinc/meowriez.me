@@ -72,11 +72,11 @@ function Card(props: {
 
 const projects = [
   {
-    name: "CatSploit",
+    name: "ariezware",
     description:
-      "Very epic Roblox Exploit!",
+      "the best config for bedwars (roblox bedwars)",
     thumbnail: "/assets/catsploit.png",
-    buttons: [{ name: "Website", url: "https://catsploit.ariez.codes/" }],
+    buttons: [{ name: "becoming public soon", url: "" }],
   },
   {
     name: "meowra1n",
