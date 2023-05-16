@@ -39,6 +39,7 @@ After that do npm start then it should run on localhost:3000
 ## Cloudflare Pages
 
 ### First fork this repo
+
 ![image](https://github.com/ommibtw/meowriez.me/assets/111437912/ae7880fa-7dd0-4ae1-bb4f-ea41d553ef99)
 
 ### Go to Cloudflare Pages
@@ -59,6 +60,7 @@ After that click on your repo (shows already in use for me because im already us
 
 
 ### Build settings
+
 ![image](https://github.com/ommibtw/meowriez.me/assets/111437912/1f930033-9c96-41a2-be47-64d3b4599425)
 
 Copy those settings.
