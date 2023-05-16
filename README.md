@@ -29,7 +29,8 @@
 
 # Setup
 
-You will need NodeJS with version 16.12.0 or later, personally I am hosting it on Cloudflare Pages with a variable called NODE_VERSION and it needs to equal 16.12.0 or else it will fail ![image](https://github.com/ommibtw/meowriez.me/assets/111437912/3f80ad63-0fdb-4dfb-b3b3-0b545bcf6524)
+You will need NodeJS with version 16.12.0 or later, personally I am hosting it on Cloudflare Pages with a variable called NODE_VERSION and it needs to equal 16.12.0 or else it will fail
+![image](https://github.com/ommibtw/meowriez.me/assets/111437912/3f80ad63-0fdb-4dfb-b3b3-0b545bcf6524)
 
 ## Running locally
 First, git clone the repo ``git clone https://github.com/ommibtw/meowriez.me`` then do cd meowriez.me and do npm i
