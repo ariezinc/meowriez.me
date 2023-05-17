@@ -76,7 +76,7 @@ const projects = [
     description:
       "the best config for bedwars (roblox bedwars)",
     thumbnail: "/assets/catsploit.png",
-    buttons: [{ name: "becoming public soon", url: "" }],
+    buttons: [{ name: "becoming public soon", url: "javascript:void(0)" }],
   },
   {
     name: "meowra1n",
